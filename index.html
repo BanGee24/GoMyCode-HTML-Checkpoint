@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     table, th, td {
         border:1px solid black;
@@ -8,8 +9,10 @@
 <body>
 <header>
     <title>My HTML Checkpoint</title>
-    <h1>My HTML Portfolio</h1>
+    <link rel="stylesheet" href="styles.css">
+    <h1 class="port">My HTML Portfolio</h1>
 
+<nav class="navbar">
     <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
@@ -18,7 +21,8 @@
         <a href="#contact">Contact</a>
         <!--In the header i made use of <title>,<h1>,<div> & <a> tags.-->
       </div>
-</header>
+</nav>
+</header><br>
 
 <main>
     <section id="home">
@@ -31,28 +35,31 @@
             <h1>Hello, World!</h1><br>
 
             <h3>An example of HTML table:</h3>
-            <table style="width:100%">
-                <tr>
-                    <th>NAME</th>
-                    <th>MONTH</th>
-                    <th>AMOUNT</th>
-                </tr>
-                <tr>
-                    <td>Balogun</td>
-                    <td>January</td>
-                    <td>$150</td>
-                </tr>
-                <tr>
-                    <td>Mayokun</td>
-                    <td>February</td>
-                    <td>$175</td>
-                </tr>
-                <tr>
-                    <td>Abiola</td>
-                    <td>March</td>
-                    <td>$225</td>
-                </tr>
-            </table><br>
+            <div class="table">
+                <table style="width:100%">
+                    <tr>
+                        <th>NAME</th>
+                        <th>MONTH</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                    <tr>
+                        <td>Balogun</td>
+                        <td>January</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Mayokun</td>
+                        <td>February</td>
+                        <td>$175</td>
+                    </tr>
+                    <tr>
+                        <td>Abiola</td>
+                        <td>March</td>
+                        <td>$225</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
 
             <h3>Below is a video of HTML Tutorial for Beginners:</h3><br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -116,7 +123,9 @@
     </section>
 </main><br><br>
 
+
 <footer>
+    <a href="#top">Back to top</a>
     <p>Creator: Muiz Adegbite</p>
     <p>Contact me:<br><a href="malito:bangee99@gmail.com">bangee99@gmail.com</a></p>
     <p>&copy; 2023 My website. All rights reserved.</p>

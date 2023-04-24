@@ -1,0 +1,42 @@
+.topnav { font-family: 'Roboto', sans-serif ; 
+    overflow: hidden; 
+    background-color: #a8a29e; 
+    margin: 0; 
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav a { float: none;
+    color: rgb(30, 24, 21);
+    text-align: center;
+    padding: 25px ;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4%;
+    border: 20px;
+}
+
+.topnav a:hover {
+    background-color: #db2777;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: cadetblue;
+    color: white;
+}
+
+.port {
+    text-align: center;
+    background-color: #1f2937;
+    border-radius: 50%;
+}
+
+body {
+    background-color:#94a3b8;
+    color: white;
+}
+
+.table {
+    color: #4c0519;
+}
